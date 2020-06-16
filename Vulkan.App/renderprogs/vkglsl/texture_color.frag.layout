@@ -1,0 +1,7 @@
+uniforms:
+rpAlphaTest
+end uniforms:
+bindings:
+ubo
+sampler
+end bindings:

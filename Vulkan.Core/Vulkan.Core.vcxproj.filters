@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common\Common.h" />
+    <ClInclude Include="AppCore.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="VulkanFoundation.h" />
+    <ClInclude Include="Math\3DMath.h" />
+    <ClInclude Include="Math\BoundingPlane.h" />
+    <ClInclude Include="Math\BoundingSphere.h" />
+    <ClInclude Include="Math\Common.h" />
+    <ClInclude Include="Math\DrawVertex.h" />
+    <ClInclude Include="Math\Frustum.h" />
+    <ClInclude Include="Math\Matrix3.h" />
+    <ClInclude Include="Math\Matrix4.h" />
+    <ClInclude Include="Math\Plane.h" />
+    <ClInclude Include="Math\Quaternion.h" />
+    <ClInclude Include="Math\Scalar.h" />
+    <ClInclude Include="Math\ScreenRect.h" />
+    <ClInclude Include="Math\Transform.h" />
+    <ClInclude Include="Math\Vector.h" />
+    <ClInclude Include="Math\VectorMath.h" />
+    <ClInclude Include="DXT\DXTCodec.h" />
+    <ClInclude Include="DXT\sys_intrinsics.h" />
+    <ClInclude Include="Inc\XCollision.h" />
+    <ClInclude Include="Inc\XColors.h" />
+    <ClInclude Include="Inc\XMath.h" />
+    <ClInclude Include="Inc\XPackedVector.h" />
+    <ClInclude Include="Common\CommonEnums.h" />
+    <ClInclude Include="Common\VulkanAllocateMemory.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="System\Heap.h" />
+    <ClInclude Include="Common\Image.h" />
+    <ClInclude Include="Common\VulkanStagingBuffer.h" />
+    <ClInclude Include="External\stb_image.h" />
+    <ClInclude Include="External\tiny_obj_loader.h" />
+    <ClInclude Include="SystemTime.h" />
+    <ClInclude Include="Common\GameInput.h" />
+    <ClInclude Include="AppGlobals.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Common\RenderCommon.h" />
+    <ClInclude Include="idLib\sys_threading.h" />
+    <ClInclude Include="idLib\Thread.h" />
+    <ClInclude Include="Common\VulkanRenderProgram.h" />
+    <ClInclude Include="Common\BufferObject.h" />
+    <ClInclude Include="Common\GLState.h" />
+    <ClInclude Include="External\3DModelFromObjFile.h" />
+    <ClInclude Include="Common\VulkanVertexCatch.h" />
+    <ClInclude Include="GuiModel.h" />
+    <ClInclude Include="RenderWorld.h" />
+    <ClInclude Include="RenderModelManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppCore.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Math\DrawVertex.cpp" />
+    <ClCompile Include="Math\Frustum.cpp" />
+    <ClCompile Include="Math\Plane.cpp" />
+    <ClCompile Include="Math\ScreenRect.cpp" />
+    <ClCompile Include="DXT\DXTDecoder.cpp" />
+    <ClCompile Include="DXT\DXTEncoder.cpp" />
+    <ClCompile Include="DXT\DXTEncoder_SSE2.cpp" />
+    <ClCompile Include="VulkanFoundation.cpp" />
+    <ClCompile Include="Common\VulkanAllocateMemory.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
+    <ClCompile Include="System\Heap.cpp" />
+    <ClCompile Include="Common\Image.cpp" />
+    <ClCompile Include="Common\VulkanStagingBuffer.cpp" />
+    <ClCompile Include="SystemTime.cpp" />
+    <ClCompile Include="Common\GameInput.cpp" />
+    <ClCompile Include="AppGlobals.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Common\RenderCommon.cpp" />
+    <ClCompile Include="idLib\Thread.cpp" />
+    <ClCompile Include="idLib\win_thread.cpp" />
+    <ClCompile Include="Common\VulkanRenderProgram.cpp" />
+    <ClCompile Include="Common\BufferObject.cpp" />
+    <ClCompile Include="External\3DModelFromObjFile.cpp" />
+    <ClCompile Include="Common\VulkanVertexCatch.cpp" />
+    <ClCompile Include="GuiModel.cpp" />
+    <ClCompile Include="RenderWorld.cpp" />
+    <ClCompile Include="RenderModelManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Functions.inl" />
+    <None Include="Inc\XCollision.inl" />
+    <None Include="Inc\XMathConvert.inl" />
+    <None Include="Inc\XMathMatrix.inl" />
+    <None Include="Inc\XMathMisc.inl" />
+    <None Include="Inc\XMathVector.inl" />
+    <None Include="Inc\XPackedVector.inl" />
+  </ItemGroup>
+</Project>
